@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#image {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+}
+
+#img-div {
+  display: block;
+  background-color: rgb(238, 238, 238);
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  /* Add padding around the image and caption */
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  /* Ensure caption text is bold */
+}
+
+#tribute-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 20px;
+}
+
+#caption-2 {
+  padding: 20px;
+  /* Increased padding for better spacing */
+  width: 50%;
+  margin: auto;
+}
+
+#italic {
+  font-style: italic;
+  margin-top: 20px;
+  /* Add space above italic section */
+}
+
+#text {
+  font-style: italic;
+  margin-top: 20px;
+  /* Add space above text section */
+}
+
+#footer {
+  margin-top: 32px;
+  padding: 20px;
+  /* Add padding around the footer content */
+}
+
+/* Make each date bold */
+.date {
+  font-weight: bold;
+}
+
+/* Increase bullet point size */
+ul {
+  list-style-type: none;
+  /* Remove default bullets */
+  padding: 0;
+  margin: 0;
+  /* Remove default margins */
+}
+
+ul li {
+  position: relative;
+  padding-left: 40px;
+  /* Increase space for custom bullet */
+  margin-bottom: 15px;
+  /* Add space between list items */
+}
+
+ul li::before {
+  content: "\2022";
+  /* Unicode bullet character */
+  font-size: 1.5em;
+  /* Increase bullet size */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  /* Bullet color */
+}
+
+#header {
+  margin: auto;
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(9, 1, 1, 0.1);
+  border-radius: 10px;
+  width: 80%;
+  
+
+}
+
+@media screen and (max-width:600px) {
+  a {
+    font-size: 10px;
+    width: 34px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+}
+
+#nav div {
+  display: inline-block;
+  justify-content: center;
+  margin: 10px;
+  margin-right: 80px;
+
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#nav {
+  display: flex;
+}
+
+
+#logo img {
+  max-width: 60px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+*{
+  scroll-behavior: smooth; 
+}
+
+
+footer{
+  bottom: 0;
+  background-color: white;
+  width:100%;
+  height: 150px;
+  margin: auto;
+  margin-top:10px;
+  padding-top:0px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media   only screen and (max-width: 600px) {
+  footer{
+    height: 100%;
+  }
+ 
+}
